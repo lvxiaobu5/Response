@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>交易学院课程上新</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/index_min.css">
+    <!-- 视频插件 -->
+    <link href="./css/video-js.min.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="all" id="all">
+        <div class="top" ></div>
+        <!-- 视频课程 -->
+        <img class="content1" src="./img/编组 18.png" alt="">
+        <!-- 课程1 -->
+        <div class="box1">
+            <div class="bg"></div>
+           <div class="sipin sipin1" onclick="show(obj.url1)"></div>
+            <img class="star" src="./img/播放键@2x.png" onclick="show(obj.url1)" alt="">
+            <img class="one" src="./img/one备份 2.png" alt="">
+            <img class="textbg" src="./img/编组 32.png" alt="">
+            <div class="bx"></div>
+            <div id="one_title" class="title"></div>
+            <a href="#" onclick="a(this)"><div id="one_text" class="text"></div></a>
+            <a href="#" onclick="a(this)"><button class="button">点击马上购买</button></a>
+            <div class="boxbottom">
+                <div class="title2">
+                    莫凡老师往期公开课
+                </div>
+            <div class="gongkaike">
+                <div class="kecen" onclick="show(obj.url2)">
+                    <img src="./img/编组 26(1).png" alt="">
+                    <img class="star2" src="./img/形状(1).png" alt="">
+                    <div id="one_text2" class="text3">  
+                    </div>
+                </div>
+                <div class="kecen" onclick="show(obj.url3)">
+                    <img src="./img/编组 26备份 2.png" alt="">
+                    <img class="star2" src="./img/形状(1).png" alt="">
+                    <div id="one_text3" class="text3">
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- 课程2 -->
+        <div class="box1">
+            <div class="bg"></div>
+            <div class="sipin_two" onclick="show(obj2.url1)"></div>
+            <img class="star_two" src="./img/播放键@2x.png" onclick="show(obj.url1)" alt="">
+            <img class="two" src="./img/one备份.png" alt="">
+            <img class="textbg_two" src="./img/编组 32.png" alt="">
+            <div class="bx_two"></div>
+            <div id="two_title" class="title_two"></div>
+            <a href="#" onclick="a(this)"><div id="two_text" class="text_two"></div></a>
+            <a href="#" onclick="a(this)"><button class="button_two">点击马上购买</button></a>
+            <div class="boxbottom">
+                <div class="title2">
+                    Kevin老师往期公开课
+                </div>
+            <div class="gongkaike">
+                <div class="kecen" onclick="show(obj2.url2)">
+                    <img src="./img/编组 26.png" alt="">
+                    <img class="star2" src="./img/形状(1).png" alt="">
+                    <div id="two_text2" class="text3">
+                    </div>
+                </div>
+                <div class="kecen" onclick="show(obj2.url3)">
+                    <img src="./img/矩形(1).png" alt="">
+                    <img class="star2" src="./img/形状(1).png" alt="">
+                    <div id="two_text3" class="text3">
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- 课程3 -->
+        <div class="box1">
+            <div class="bg"></div>
+            <div class="sipin sipin3" onclick="show(obj3.url2)"></div>
+            <img class="star" src="./img/播放键@2x.png" onclick="show(obj.url1)" alt="">
+            <img class="three" src="./img/one.png" alt="">
+            <img class="textbg" src="./img/编组 32.png" alt="">
+            <div class="bx"></div>
+            <div id="three_title" class="title"></div>
+            <a href="#" onclick="a(this)"><div id="three_text" class="text"></div></a>
+            <a href="#" onclick="a(this)"><button class="button" >点击马上购买</button></a>
+            <div class="boxbottom">
+                <div class="title2">
+                    陈海清老师往期公开课
+                </div>
+            <div class="gongkaike">
+                <div class="kecen" onclick="show(obj3.url2)">
+                    <img src="./img/矩形(4).png" alt="">
+                    <img class="star2" src="./img/形状(1).png" alt="">
+                    <div id="three_text2" class="text3">
+                    </div>
+                </div>
+                <div class="kecen" onclick="show(obj3.url3)">
+                    <img src="./img/矩形(5).png" alt="">
+                    <img class="star2" src="./img/形状(1).png" alt="">
+                    <div id="three_text3" class="text3">
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- 右侧固定二维码 -->
+        <div class="eweima1">
+        </div>
+        <!-- 移动端按钮 -->
+        <button onclick="show_eweima()" class="eweima2"></button>
+        <div id="show_ma" onclick="show_eweima()" style="height: 0;">
+					<img src="./img/编组 28@2x.png" alt="" id="show_eweima" style="height: 0;">
+        </div>
+
+        <!-- 配套权益 -->
+        <img class="content2" src="./img/标题2.png" alt="">
+        <div class="quanyi"></div>
+        <img class="fuli" src="./img/标题3.png" alt="">
+        <img class="fuzen" src="./img/编组 38.png" alt="">
+        <img class="weixin" src="./img/二维码.png" alt="">
+        <div class="text4">
+        <h1 class="win">微信扫码立即领取</h1>
+        <h1 class="min">长按二维码立即领取</h1>
+        <h2>交易学霸微信号：<i>jin1010086</i></h2>
+        <h3>微信扫码立即领取</h3> 
+
+        </div>
+
+        <!-- 视频窗口 -->
+           <div class="video1" id="vi" style="width:0px" onclick="show(null)">
+            <video id="my-video1" class="video-js" controls preload="auto" style="width:0px"
+            src="https://jin10videoserver.jin10.com/Act-ss-mp4-hd/d1944f202c844026bfef518aa7b40bf7/2mofan.mp4" type="video/mp4">
+                </video>
+            </div>
+
+    </div>
+
+    
+    <script src="./js/index.js"></script>
+    <!-- 视频插件 -->
+    <script src="./js/video.min.js"></script>
+
+</body>
+</html>

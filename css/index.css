@@ -1,0 +1,383 @@
+/*当设备宽度小于1025px的时候切换成移动端的布局*/
+@media screen and (min-width: 1025px){
+html{
+    font-size: 1px;
+}
+.all{
+    background-image: url(../img/内容底板.png);
+    background-size:100% 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-top: -10rem;
+    transition: 0.5s;
+    
+}
+/* 顶部图片 */
+.top{
+    content:url(../img/网页顶部.png);
+    width: 100%;
+
+}
+/* 视频课程标志 */
+.content1{
+    width: 465rem;
+    height: 116.5rem;
+    margin: 58.5rem auto 0;
+}
+/* 视频课程 */
+.box1{
+    margin: 104.5rem auto 0;
+    position: relative;
+}
+.box1 .bg{
+    content: url(../img/Fill\ 1.png);
+
+    width: 911rem;
+    height: 362rem;  
+}
+.sipin{
+    position: absolute;
+    width: 425.5rem;
+    height:348rem;
+    left: 39rem;
+    top: -34.5rem;
+}
+.sipin1{
+    content: url(../img/编组\ 17.png);
+}
+/* 视频播放标志 */
+.star{
+    position: absolute;
+    width: 100rem;
+    height: 100rem;
+    left:170rem ;
+    top: 100rem;
+		cursor: pointer;
+}
+.one{
+    position: absolute;
+    width:165rem;
+    height:73rem;
+    right: 254rem;
+    top: -44rem;
+}
+/* 字体部分 */
+.textbg{
+    position: absolute;
+    width: 123rem;
+    height: 68rem;
+    top: 34rem;
+    right: 294rem;
+}
+.bx{
+    position: absolute;
+    top: 68rem;
+    right: 414rem;
+    width:6rem;
+    height:37rem;
+    background:rgba(193,194,238,1);
+}
+/* 设置课程标题 */
+.title{
+    position: absolute;
+    word-wrap:break-word;
+    word-break: break-all;
+    overflow: hidden;
+    top: 56rem;
+    right: 41rem;
+    width:361rem;
+    height:69rem;
+    font-size:18rem;
+    font-family:SourceHanSansCN-Heavy,SourceHanSansCN;
+    font-weight:800;
+    color:rgba(218,219,254,1);
+    line-height:25rem;
+}
+/* 课程详细介绍 */
+.text{
+    position: absolute;
+    word-wrap:break-word;
+    word-break: break-all;
+    overflow: hidden;
+    width:381rem;
+    height:151rem;
+    font-size:16rem;
+    font-family:SourceHanSansCN-Light,SourceHanSansCN;
+    font-weight:300;
+    color:rgba(255,244,241,0.5);
+    line-height:25rem;
+    right: 41rem;
+    top:140rem;
+}
+/* 购买按钮 */
+.button{
+    position: absolute;
+    background: url("../img/矩形(6).png") no-repeat;
+    border: none;
+    background-size:100% 100%;
+    right: 42rem;
+    top: 263rem;
+    width: 141.5rem;
+    height: 37rem;
+    font-size:14rem;
+    font-family:SourceHanSansCN-Bold,SourceHanSansCN;
+    font-weight:bold;
+    color:rgba(43,36,74,1);
+    line-height:24rem;
+		cursor: pointer;
+}
+/* 底部课程视频 */
+.boxbottom{
+    background: url(../img/矩形.png) no-repeat;
+    background-size:100% 100%;
+    width: 911rem;
+    height: 422rem;
+    margin-top: -71rem;
+    display: flex;
+    flex-direction: column;
+}
+/* 公开课视频标题 */
+ .title2{
+    background: url(../img/编组\ 14.png) no-repeat;
+    background-size:100% 100%;
+    margin:103rem auto 0;
+    width:246rem;
+    height:8rem;
+    text-align: center;
+    font-size:16rem;
+    font-family:MicrosoftYaHei;
+    color:rgba(205,205,210,0.8);
+    line-height:8rem;
+}
+/* 存放两个视频的容器 */
+.gongkaike{
+    display: flex;
+    justify-content:space-between ;
+    width: 626.5rem;
+    height: 185rem;
+    margin:40rem auto 0;
+}
+.kecen img{
+    width: 294rem;
+    height: 165rem;
+}
+.kecen{
+    position: relative;
+}
+/* 视频播放按钮 */
+.kecen .star2{
+    position: absolute;
+    left: 125rem;
+    top:62rem;
+    width: 43rem;
+    height: 43rem;
+		cursor: pointer;
+}
+/* 视频简介 */
+.kecen .text3{
+    width: 290.5rem;
+    height: 46rem;
+    font-size:15rem;
+    font-family:MicrosoftYaHei;
+    color:rgba(205,205,210,0.8);
+    line-height:23rem;
+    letter-spacing:4rem;
+    margin-top: 16rem;
+}
+
+/* 课程two的样式修改 */
+.sipin_two{
+    content: url(../img/蒙版.png);
+    position: absolute;
+    width: 425.5rem;
+    height:348rem;
+    right: 39rem;
+    top: -34.5rem;
+}
+.star_two{
+    position: absolute;
+    width: 100rem;
+    height: 100rem;
+    right:170rem ;
+    top: 100rem;
+		cursor: pointer;
+}
+.two{
+    position: absolute;
+    width:173rem;
+    height:73rem;
+    left: 44rem;
+    top: -44rem;
+}
+.textbg_two{
+    position: absolute;
+    width: 123rem;
+    height: 68rem;
+    top: 34rem;
+    left: 42.5rem;
+}
+.bx_two{
+    position: absolute;
+    top: 68rem;
+    left: 43rem;
+    width:6rem;
+    height:37rem;
+    background:rgba(193,194,238,1);
+}
+/* 设置课程标题 */
+.title_two{
+    position: absolute;
+    word-wrap:break-word;
+    word-break: break-all;
+    overflow: hidden;
+    top: 56rem;
+    left: 63.5rem;
+    width:361rem;
+    height:72rem;
+    font-size:18rem;
+    font-family:SourceHanSansCN-Heavy,SourceHanSansCN;
+    font-weight:800;
+    color:rgba(218,219,254,1);
+    line-height:25rem;
+}
+/* 课程详细介绍 */
+.text_two{
+    position: absolute;
+    word-wrap:break-word;
+    word-break: break-all;
+    overflow: hidden;
+    width:381rem;
+    height:151rem;
+    font-size:16rem;
+    font-family:SourceHanSansCN-Light,SourceHanSansCN;
+    font-weight:300;
+    color:rgba(255,244,241,0.5);
+    line-height:25rem;
+    left: 42.5rem;
+    top:140rem;
+}
+/* 购买按钮 */
+.button_two{
+    position: absolute;
+    background: url("../img/矩形(6).png") no-repeat;
+    border: none;
+    background-size:100% 100%;
+    left: 280.5rem;
+    top: 263rem;
+    width: 141.5rem;
+    height: 37rem;
+    font-size:14rem;
+    font-family:SourceHanSansCN-Bold,SourceHanSansCN;
+    font-weight:bold;
+    color:rgba(43,36,74,1);
+    line-height:24rem;
+		cursor: pointer;
+}
+
+/* 课程three的样式修改 */
+.three{
+        position: absolute;
+        width:212rem;
+        height:73rem;
+        right: 196rem;
+        top: -44rem;
+}
+.sipin3{
+    content: url(../img/蒙版\(1\).png);
+}
+/* 右侧二维码 */
+.eweima1{
+    content: url(../img/编组\ 28@2x.png);
+    width: 131.5px;
+    height: 237px;
+    position: fixed;
+    right: 33rem;
+    /* top:413rem; */
+		top: 50%;
+		margin-top: -118px;
+}
+.eweima2{
+    display: none;
+}
+
+/* 配套权益 */
+.content2{
+    width: 555rem;
+    height: 128rem;
+    margin: 85rem auto 0;
+}
+.quanyi{
+    content: url(../img/编组\ 56.png);
+    width: 917rem;
+    height: 401rem;
+    margin: 89rem auto 0;
+}
+.fuli{
+    width: 597rem;
+    height: 139rem;
+    margin: 140rem auto 0;
+}
+.fuzen{
+    width: 732rem;   
+    height: 171rem;
+    margin:78rem auto 0;
+}
+.weixin{
+    width: 100rem;
+    height: 100rem;
+    margin: 49rem auto 0;
+}
+.text4{
+    margin: 20rem auto 0;
+}
+.text4 h1{
+    font-size:22rem;
+    font-family:MicrosoftYaHei-Bold,MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(238,208,184,1);
+    line-height:30rem;
+    letter-spacing:3rem;
+    text-align: center;
+}
+.text4 .min{
+    display: none;
+}
+.text4 h2{
+    font-size:16rem;
+    font-family:MicrosoftYaHei-Bold,MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(205,205,210,1);
+    line-height:30rem;
+    letter-spacing:2rem;
+    text-align: center;
+}
+.text4 h2 i{
+    color: #EED0B8;
+}
+.text4 h3{
+    font-size:14rem;
+    font-family:MicrosoftYaHei;
+    color:rgba(205,205,210,1);
+    line-height:25rem;
+    letter-spacing:1rem;
+    text-align: center;
+}
+
+/* 视频样式 */
+.video1{
+    position: fixed;
+    /* top: 8vw;
+    left: 14vw; */
+    background-color: rgba(47, 47, 47, 0.5);
+    transition: width 0.5s;
+    height: 100%;
+    display: flex;
+}
+.video-js{ 
+    height: 40vw;
+    transition: width 0.5s;
+    margin: auto;    
+}
+}

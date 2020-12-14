@@ -1,0 +1,324 @@
+/*当设备宽度小于800px的时候切换成移动端的布局*/
+@media screen and (max-width: 1025px){
+.all{
+    background-image: url(../img/内容底板.png);
+    background-size:100% 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height:auto;
+    padding-bottom: 18vw;
+    transition: 1s;
+}
+/* 顶部图片 */
+.top{
+    content:url(../img/min/编组\ 11@2x.png);
+    width: 100%;
+    height: 107vw;
+    margin-top: 13.6vw;
+}
+/* 视频课程标志 */
+.content1{
+    width: 67vw;
+    height:18vw;
+    margin: -35.73vw auto 0;
+}
+/* 视频课程 */
+.box1{
+    margin: 27.87vw auto 0;
+    position: relative;
+}
+.box1 .bg{
+    content: url(../img/min/形状结合.png);
+    width: 83vw;
+    margin: 0 auto;
+    height:105vw;  
+}
+.sipin{
+    position: absolute;
+    width: 90vw;
+    height:48vw;
+    top: -15.87vw;
+    left: 1.87vw;
+}
+.sipin1{
+    content: url(../img/min/视频1@2x.png);
+}
+/* 视频播放标志 */
+.star,.star_two{
+    position: absolute;
+    width: 13vw;
+    height: 13vw;
+    top:1.6vw ;
+    left: 36.8vw;
+    cursor: pointer;
+}
+.one,.two{
+    position: absolute;
+    width:31vw;
+    height:14vw;
+    top: -24.6vw;
+    left: 3vw;
+}
+/* 字体部分 */
+.textbg,.textbg_two{
+    position: absolute;
+    width: 33vw;
+    height: 18vw;
+    top: 60.13vw;
+    left: 9vw;
+}
+.bx,.bx_two{
+    position: absolute;
+    top: 68vw;
+    left: 9vw;
+    width:1vw;
+    height:6.5vw;
+    background:rgba(193,194,238,1);
+}
+/* 设置课程标题 */
+.title,.title_two{
+    position: absolute;
+    word-wrap:break-word;
+    word-break: break-all;
+    overflow: hidden;
+    width:65vw;
+    height:18vw;
+    font-size:3vw;
+    line-height:5vw;
+    left: 11.33vw;
+    top:66.13vw;
+    font-family:SourceHanSansCN-Heavy,SourceHanSansCN;
+    font-weight:800;
+    color:rgba(218,219,254,1);
+    
+}
+/* 课程详细介绍 */
+.text,.text_two{
+    position: absolute;
+    word-wrap:break-word;
+    word-break: break-all;
+    overflow: hidden;
+
+    font-family:SourceHanSansCN-Light,SourceHanSansCN;
+    font-weight:500;
+    color:rgba(255,244,241,0.8);
+    top:38vw;
+    left:9vw;
+    width:70vw;
+    height:25vw;
+    font-size:3vw;
+    line-height:5vw;
+}
+/* 购买按钮 */
+.button,.button_two{
+    position: absolute;
+    background: url("../img/矩形(6).png") no-repeat;
+    border: none;
+    background-size:100% 100%;
+    left: 26vw;
+    top: 85vw;
+    width: 38vw;
+    height: 10vw;
+    font-size:4vw;
+    font-family:SourceHanSansCN-Bold,SourceHanSansCN;
+    font-weight:bold;
+    color:rgba(43,36,74,1);
+    line-height:6vw;
+		cursor: pointer;
+}
+/* 底部课程视频 */
+.boxbottom{
+    background: url(../img/min/矩形.png) no-repeat;
+    background-size:100% 100%;
+    width: 92vw;
+    height: 126vw;
+    margin-top: -72vw;
+    display: flex;
+    flex-direction: column;
+}
+/* 公开课视频标题 */
+ .title2{
+    background: url(../img/编组\ 14.png) no-repeat;
+    background-size:100% 100%;
+    margin:77.04vw auto 0;
+    width:40vw;
+    height:1vw;
+    text-align: center;
+    font-size:3vw;
+    font-family:MicrosoftYaHei;
+    color:rgba(205,205,210,0.8);
+    line-height:1vw;
+}
+/* 存放两个视频的容器 */
+.gongkaike{
+    display: flex;
+    justify-content:space-between ;
+    width:92vw;
+    height: 32.5vw;
+    margin:5vw auto 0;
+
+}
+.kecen img{
+    width: 45vw;
+    height: 25vw;
+}
+.kecen{
+    position: relative;
+}
+/* 视频播放按钮 */
+.kecen .star2{
+    position: absolute;
+    left: 18.85vw;
+    top:9.6vw;
+    width: 6.63vw;
+    height: 6.63vw;
+		cursor: pointer;
+}
+/* 视频简介 */
+.kecen .text3{
+    width: 37vw;
+    height: 5.6vw;
+    font-size:1vw;
+    font-family:MicrosoftYaHei;
+    color:rgba(205,205,210,0.6);
+    line-height:4vw;
+    margin-top: 1.57vw;
+}
+
+/* two的样式修改 */
+.sipin_two{
+    content: url(../img/min/蒙版@2x.png);
+    position: absolute;
+    width: 90vw;
+    height:48vw;
+    top: -15.87vw;
+    left: 1.87vw;
+}
+
+
+
+
+/* three的样式修改 */
+.three{
+        position: absolute;
+        width:39vw;
+        height:14vw;
+        top: -24.6vw;
+        left: 3vw;
+}
+.sipin3{
+    content: url(../img/蒙版\(1\).png);
+
+}
+/* 移动端二维码 */
+.eweima1{
+    display: none;
+}
+.eweima2{
+    position: fixed;
+    bottom: 5vw;
+    left: 7vw;
+    width: 86vw;
+    height: 16vw;
+    background: url("../img/min/按钮@2x.png") no-repeat;
+    border: none;
+    background-size:100% 100%;
+		cursor: pointer;
+}
+
+/* 配套权益 */
+.content2{
+    width: 80vw;
+    height: 20vw;
+    margin: 9vw auto 0;
+}
+.quanyi{
+    content: url(../img/min/编组\ 48@2x.png);
+    width: 51vw;
+    height: 137vw;
+    margin:15vw auto 0;
+}
+.fuli{
+    width: 87vw;
+    height: 25vw;
+    margin: 10vw auto 0;
+}
+.fuzen{
+    width: 87vw;   
+    height: 20vw;
+    margin:8vw auto 0;
+}
+.weixin{
+    width: 21vw;
+    height: 21vw;
+    margin: 9vw auto 0;
+}
+.text4{
+    margin: 2vw auto 0;
+}
+.text4 h1{
+    font-size:4vw;
+    font-family:MicrosoftYaHei-Bold,MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(239,222,210,1);
+    line-height:8vw;
+    text-align: center;
+}
+.text4 .win{
+    display: none;
+}
+.text4 h2{
+    
+    font-size:2vw;
+    font-family:MicrosoftYaHei-Bold,MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(205,205,210,1);
+    line-height:3vw;
+    text-align: center;
+}
+.text4 h2 i{
+    color: #EED0B8;
+}
+.text4 h3{
+display: none;
+}
+/* 视频样式 */
+.video1{
+    position: fixed;
+    /* top: 8vw;
+    left: 14vw; */
+    background-color: rgba(47, 47, 47, 0.5);
+    transition: width 0.5s;
+    height: 100%;
+}
+.video-js{ 
+    height: 40vw;
+    transition: width 0.5s; 
+    margin:10vh auto;   
+}
+
+
+/* 二维码弹窗 */
+#show_eweima{
+    /* height: 71vw; */
+    /* width: 48vw;
+    margin: 20vw 26vw; */
+    position: fixed;
+    /* top: 39vw; */
+    /* left: 22vw; */
+    transition: height 0.5s;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		top: 0;
+		margin: auto;
+		max-height: 50%;
+}
+#show_ma{
+    position: fixed;
+    background-color: rgba(47, 47, 47, 0.5);
+    width: 100%;
+    transition: height 0.5s;
+}
+}
